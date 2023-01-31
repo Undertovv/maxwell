@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="../main.css">
+
+<h1>
+    maxwell.
+</h1>
+
+<!--Javascript audio via Howler for wider browser compatibility-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.1.1/howler.min.js"></script>
+<script>
+    var music = new Howl({
+      src: ['assets/maxwell.mp3'],
+      volume: 0.7,
+    });
+    music.play()
+</script>
+
+<!-- spin Maxwell :) -->
+    <div>
+    <img src="assets/maxwell.png" alt="maxwell.">
+    </div>
+
+</head>
+</html>
