@@ -1,0 +1,28 @@
+body{
+    background-color: chartreuse;
+}
+h1{
+    text-align: center;
+    color: blueviolet;
+}
+
+img{
+    width: 50%;
+    height: 100%;
+}
+
+div {
+    animation: rotation 3s infinite linear;
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+}
+audio{
+    size: 0cm;
+}
