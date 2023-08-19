@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="../main.css">
+</head>
+<body>
+
+<h1>
+    jelly bean.
+</h1>
+
+<!--Javascript audio for wider browser compatibility-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.1.1/howler.min.js"></script>
+<script>
+    var music = new Howl({
+      src: ['assets/ginger.mp3'],
+      loop: true,
+      autoplay: true,
+      volume: 0.7,
+    });
+    music.play();
+</script>
+
+<!-- spin Ginger :) -->
+    <div>
+    <img src="assets/bean.png" alt="jelly bean." width="625" height="882">
+    </div>
+
+</body>
+</html>
